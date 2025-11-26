@@ -1,0 +1,36 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: aliceblue;
+     
+}
+html,body{
+     /* background: #f2f2f2; */
+     overflow: hidden;
+     height: 100%;
+     width: 100%;
+    
+}
+
+main{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-color: black;
+}
+button{
+     padding: 15px 30px;
+     font-size: 18px;
+     font-weight: 600;
+     border: none;
+     border-radius: 5px;
+     background-color: #3498db;
+     color: #fff;
+     cursor: pointer;
+     position: relative;
+     z-index: 9;
+}
